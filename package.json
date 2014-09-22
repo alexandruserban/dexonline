@@ -1,7 +1,7 @@
 {
-    "name": "dexonline-api",
+    "name": "dexonline-search-api",
     "version": "0.0.1",
-    "description": "JSON result search API for dexonline.ro",
+    "description": "dexonline.ro search API with JSON encoded result",
     "dependencies": {
         "cheerio": "^0.17.0",
         "require": "^0.5.0"
