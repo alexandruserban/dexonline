@@ -1,7 +1,7 @@
 {
-    "name": "dexonline-search-api",
+    "name": "dexonline-search",
     "version": "0.0.1",
-    "description": "dexonline.ro search API with JSON encoded results",
+    "description": "dexonline.ro search",
     "author": {
         "name": "Alexandru Şerban",
         "email": "alexandru.v.serban@gmail.com"
@@ -27,9 +27,9 @@
         "url": "https://github.com/alexandruserban/dexonline/issues"
     },
     "homepage": "https://github.com/MatthewMueller/cheerio",
-    "_id": "dexonline-search-api@0.0.1",
+    "_id": "dexonline-search@0.0.1",
     "dependencies": {
         "cheerio": "^0.17.0",
-        "require": "^0.5.0"
+        "request": "^0.5.0"
     }
 }
