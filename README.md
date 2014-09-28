@@ -1,4 +1,4 @@
-NPM package dexonline-search-api
+NPM package dexonline-search
 ================================
 ## About ##
 
