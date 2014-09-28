@@ -1,9 +1,12 @@
 NPM package dexonline-search-api
 ================================
+## About ##
+
+Use this npm package to get word definitions from dexonline.ro
 
 ## Install ##
 
-`npm install dexonline-search-api`
+`@user:~$ npm install dexonline-search-api`
 
 ## Use ##
 
@@ -17,6 +20,3 @@ dexonline("word_for_definition", function (err, definition) {
 });
 
 ```
-
-
-dexonline.ro NPM JSON praser
