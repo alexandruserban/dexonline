@@ -2,16 +2,16 @@ NPM package dexonline-search-api
 ================================
 ## About ##
 
-Use this npm package to get word definitions from dexonline.ro in a JSON format.
+Use this npm package to get word definitions from dexonline.ro.
 
 ## Install ##
 
-`@user:~$ npm install dexonline-search-api`
+`@user:~$ npm install dexonline-search`
 
 ## Use ##
 
 ```js
-var dexonline = requrie('dexonline-search-api');
+var dexonline = requrie('dexonline-search');
 
 dexonline("word_for_definition", function (err, definition) {
 
