@@ -6,11 +6,16 @@ NPM package dexonline-search-api
 `npm install dexonline-search-api`
 
 ## Use ##
+
 `
 var dexonline = requrie('dexonline-search-api');
-dexonline('search_word_for_definition', function (err, definition) {
+
+`dexonline("word_for_definition", function (err, definition) {
+
   console.log(definition);
+
 });
+
 `
 
 
