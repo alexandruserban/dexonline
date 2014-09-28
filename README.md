@@ -14,8 +14,8 @@ Use this npm package to get word definitions from dexonline.ro.
 var dexonline = requrie('dexonline-search');
 
 dexonline.define("word_for_definition", function (err, word) {
-
-  console.log(word.definition);
+    //word = { singular : '', plural : '', definition : '', type : ''}
+    console.log(word.definition);
 
 });
 
