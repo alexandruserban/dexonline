@@ -7,7 +7,7 @@ NPM package dexonline-search-api
 
 ## Use ##
 
-`
+```js
 var dexonline = requrie('dexonline-search-api');
 
 dexonline("word_for_definition", function (err, definition) {
@@ -16,7 +16,7 @@ dexonline("word_for_definition", function (err, definition) {
 
 });
 
-`
+```
 
 
 dexonline.ro NPM JSON praser
