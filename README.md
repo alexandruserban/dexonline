@@ -13,7 +13,7 @@ Use this npm package to get word definitions from dexonline.ro.
 ```js
 var dexonline = requrie('dexonline-search');
 
-dexonline("word_for_definition", function (err, definition) {
+dexonline.define("word_for_definition", function (err, definition) {
 
   console.log(definition);
 
