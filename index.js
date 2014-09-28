@@ -15,7 +15,7 @@ module.exports.define = function (word, callback) {
             item.type = $firstDef.find('abbr').first().attr('title');
             item.definition = $firstDef.first().html();
         } else {
-            var err = 'No item found';
+            err = 'No definition found';
         }
 
         callback.call(res, err, item);
