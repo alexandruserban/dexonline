@@ -10,7 +10,7 @@ NPM package dexonline-search-api
 `
 var dexonline = requrie('dexonline-search-api');
 
-`dexonline("word_for_definition", function (err, definition) {
+dexonline("word_for_definition", function (err, definition) {
 
   console.log(definition);
 
