@@ -3,7 +3,7 @@ var request = require('request')
     ;
 
 module.exports.define = function (word, callback) {
-    request({uri: "http://dexonline.ro/definitie/" + word}, function (err, res, body) {
+    request({uri: "http://dexonline.ro/definitie/" + encodeURIComponent(word)}, function (err, res, body) {
         if (res.statusCode == 200) {
             var $ = cheerio.load(body)
                 , item = {}
