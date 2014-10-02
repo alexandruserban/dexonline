@@ -1,6 +1,6 @@
 {
     "name": "dexonline-search",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "dexonline.ro search",
     "author": {
         "name": "Alexandru Şerban",
@@ -26,7 +26,7 @@
     "bugs": {
         "url": "https://github.com/alexandruserban/dexonline/issues"
     },
-    "homepage": "https://github.com/MatthewMueller/cheerio",
+    "homepage": "https://github.com/alexandruserban/dexonline",
     "_id": "dexonline-search@0.0.1",
     "dependencies": {
         "cheerio": "^0.17.0",
